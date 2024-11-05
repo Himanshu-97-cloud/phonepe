@@ -1,0 +1,484 @@
+.phonepe_logo{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.phonepe_logo:hover{
+    cursor:pointer;
+}
+.h1,.h2,.h3,.h4,.h5,.h6,.h7{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 28px;
+    
+}
+
+html, body {
+    width: 100%; 
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+}
+.header_container{
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 100%;
+}
+
+ 
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ a:hover{
+    color: rgb(103, 103, 223);
+ }
+ .h1{
+    top: 12px;
+    left: 310px;
+ }
+ .h2{
+    left: 490px;
+    
+ }
+ .h3{
+    left: 595px;
+ }
+ .h4{
+    left: 720px;
+ }
+ .h5{
+    left: 855px;
+ }
+ .h6{
+    left: 955px;
+ }
+ .h7{
+    left: 1105px;
+ }
+.slider {
+    position: relative;
+    top: 75px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    
+    height: 400;
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+.banner{
+    position: absolute;
+    left: 0px;
+    top: 75px;
+}
+.navigation{
+    position: absolute;
+    top: 485px;
+    left: 600px;
+}
+
+.section1{
+    position: absolute;
+    left: 110px;
+    top: 550px;
+    overflow: hidden;
+    border: 0.5px solid rgb(139, 127, 127);
+    border-radius: 4%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section1:hover {
+    transform: scale(1.05);
+    border: 0px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+.section2{
+    position: absolute;
+    left: 500px;
+    top: 550px;
+    overflow: hidden;
+    border: 0.5px solid rgb(139, 127, 127);
+    border-radius: 4%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section2:hover {
+    transform: scale(1.05);
+    border: 0px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+.section3{
+    position: absolute;
+    right: 110px;
+    top: 550px;
+    overflow: hidden;
+    border: 0.5px solid rgb(139, 127, 127);
+    border-radius: 4%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.section3:hover {
+    transform: scale(1.05);
+    border: 0px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+.gif{
+    position: absolute;
+    top: 900px;
+    right: 80px;
+    width: 525px;  
+    height: 500px;     
+     
+}
+.head{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    font-size: 37px;
+    color: rgb(22, 22, 107);
+}.p1{
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px solid;
+    width: 500px;
+    height: 500px;
+
+}
+.b1,.b2,.b3{
+    font-size: 20px;
+}
+.photo{
+    position: absolute;
+    top: 1400px;
+    left: 320px;
+}
+
+.container{
+    width: 90%;
+    padding: 10px;
+    margin: 100px auto;
+    position: absolute;
+    top: 1650px;
+    left: 55px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.box{
+    
+    float: left;
+    margin: 0px 10px;
+    transition: 0.5s;
+    
+    
+}
+.box:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px 18px 10px #888888;
+}
+.button{
+    position: absolute;
+    top: 2100px;
+    text-align: center;
+    left: 550px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(22, 22, 107);
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 35px;
+    width: 250px;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: rgb(22, 22, 107);
+    color: white;
+}
+.p2{
+    position: absolute;
+    top: 2150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: #3a3a3a;
+    left: 180px;
+    width: 1000px;
+    line-height: 2.0;
+}
+.tag{
+    position: absolute;
+    font-size: 20px;
+    top: 2255px;
+    left: 605px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(90, 90, 190);
+}
+.bg_gradient{
+    position: absolute;
+    top: 2650px; 
+    height: 750px; 
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(207, 203, 243, 1));
+    width: 100%
+}
+.banner7{
+    position: absolute;
+    top: 2400px;
+    left: 27px;
+    height: 360px;
+    width: 1300px;
+}
+.h8{
+    position: absolute;
+    top: 2800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    left: 570px;
+    color: rgb(22, 22, 107);
+}
+.h9{
+    position: absolute;
+    top: 2850px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    left: 400px;
+    color: rgb(22, 22, 107);
+}
+.button1{
+    position: absolute;
+    top: 2980px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    left: 570px;
+    border: 1px solid rgb(85, 199, 214);
+    background-color: rgb(83, 202, 218);
+    padding: 20px;
+    text-align: center;
+    width: 190px;   
+    border-radius: 35px;
+}
+.button1:hover{
+    background-color: rgb(88, 211, 228);
+    color: white;
+    border: 1px solid rgb(88, 211, 228);
+    box-shadow: 0px 4px 4px 4px rgba(192, 185, 185, 0.3);
+    box-shadow: 0px 4px 4px 4px rgba(133, 127, 127, 0.3);
+}
+.transition{
+    position: absolute;
+    top: 3070px;
+    
+}
+.photo1{
+    transition: transform 0.5s ease; 
+    transform: translateX(-100%);
+    
+}
+.transition:hover .photo1{
+    transform: translateX(0);
+}
+.image6{
+    position: absolute;
+    top: 3450px;
+}
+.h10{
+    position: absolute;
+    top: 3400px;
+    left: 800px;
+    font-size: 35px;
+    color: rgb(22, 22, 107);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.h11,.h12,.h13,.h14,.h15,.h16,.h17,.h18,.h19,.h20{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    left: 800px;
+    font-weight: normal;
+    color: rgb(75, 74, 74);
+}
+.h11{
+    top: 3500px;
+    color: rgb(58, 58, 58);
+}
+.h12{
+    top: 3570px;
+    font-weight: 500;
+    font-size: 23px;
+    color: rgb(31, 30, 30);
+}
+.h13{
+    top: 3645px;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(127, 71, 179);
+    width: 700px;
+}.h13:hover{
+    font-size: 21px;
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 5px;
+}
+.h14{
+    top: 3660px;
+}
+.h15{
+    top: 3735px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(127, 71, 179);
+    width: 700px;
+}.h15:hover{
+    font-size: 21px;
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 5px;
+}
+.h16{
+    top: 3750px;
+}
+.h17{
+    top: 3825px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(127, 71, 179);
+    width: 700px;
+}
+.h17:hover{
+    font-size: 21px;
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 5px;
+}
+.h18{
+    top: 3840px;
+}
+.h19{
+    top: 3915px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(127, 71, 179);
+    width: 700px;
+}
+.h19:hover{
+    font-size: 21px;
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 5px;
+}
+.h20{
+    top: 3930px;
+}
+.lower{
+    position: absolute;
+    top: 4100px;
+    left: 0px;
+}   
+.footer{
+    position: absolute;
+    top: 4600px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.business_solutions{
+    position: absolute;
+    top: 15px;
+    left: 220px;
+    width: 200px;
+    line-height: 2.3;
+}
+.insurance{
+    position: absolute;
+    top: 15px;
+    left: 420px;
+    width: 180px;
+    line-height: 2.3;
+}
+.investments{
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    width: 180px;
+    line-height: 2.3;
+}
+.general{
+    position: absolute;
+    top: 0px;
+    left: 780px;
+    width: 180px;
+    line-height: 2.3;
+}
+.legal{
+    position: absolute;
+    top: 0px;
+    left: 960px;
+    width: 180px;
+    line-height: 2.3;
+}
+.phonepe_group{
+    position: absolute;
+    top: 0px;
+    left: 1160px;
+    width: 180px;
+    line-height: 2.3;
+}
+.footer-bottom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 500px;
+    width: 350px;
+    left: 550px;
+}
